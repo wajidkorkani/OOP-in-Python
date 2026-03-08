@@ -18,7 +18,8 @@ class Car:
     def start(self):
         print("Car started. Vroom vroom!")
 
-
+    def stop(self):
+        print("Car stoped.")
 
 car1 = Car("Toyota", 20000, "Red", "Corolla")
 car1.information()
