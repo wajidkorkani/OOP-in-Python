@@ -19,6 +19,7 @@ class Car:
         print("Car started. Vroom vroom!")
 
 
+
 car1 = Car("Toyota", 20000, "Red", "Corolla")
 car1.information()
 car1.start()
