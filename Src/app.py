@@ -21,6 +21,10 @@ class Car:
     def stop(self):
         print("Car stoped.")
 
+    def __str__(self):
+        return f"A beautiful {self.color} {self.name}"
+
 car1 = Car("Toyota", 20000, "Red", "Corolla")
-car1.information()
-car1.start()
+# car1.information()
+# car1.start()
+print(car1)
