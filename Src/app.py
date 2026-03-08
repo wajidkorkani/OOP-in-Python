@@ -23,6 +23,10 @@ class Car:
 
     def __str__(self):
         return f"A beautiful {self.color} {self.name}"
+    
+    # For the Developer (formal/debugging)
+    def __repr__(self):
+        return f"Car(name='{self.name}', price={self.price}, color='{self.color}')"
 
 car1 = Car("Toyota", 20000, "Red", "Corolla")
 # car1.information()
