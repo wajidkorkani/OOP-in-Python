@@ -16,7 +16,8 @@ class Car:
         print(f"Car model: {self.model}")
 
     def start(self):
-        print("Car started")
+        print("Car started. Vroom vroom!")
+
 
 
 car1 = Car("Toyota", 20000, "Red", "Corolla")
