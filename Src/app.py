@@ -6,8 +6,8 @@ class Car:
         self.color = color
         self.model = model
 
-    def __del__(self):
-        print(f"The {self.name} is being scrapped. Goodbye!")
+    # def __del__(self):
+    #     print(f"The {self.name} is being scrapped. Goodbye!")
 
     def information(self):
         print(f"Car name: {self.name}")
@@ -32,3 +32,4 @@ car1 = Car("Toyota", 20000, "Red", "Corolla")
 # car1.information()
 # car1.start()
 print(car1)
+# print(repr(car1))
